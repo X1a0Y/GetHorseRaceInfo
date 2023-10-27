@@ -1209,11 +1209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\work\\GetRaceInfo\\GetRaceInfo.csproj",
+      "projectUniqueName": "D:\\work\\Getinfo\\GetRaceInfo\\GetRaceInfo.csproj",
       "projectName": "GetRaceInfo",
-      "projectPath": "D:\\work\\GetRaceInfo\\GetRaceInfo.csproj",
+      "projectPath": "D:\\work\\Getinfo\\GetRaceInfo\\GetRaceInfo.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\work\\GetRaceInfo\\obj\\",
+      "outputPath": "D:\\work\\Getinfo\\GetRaceInfo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\software\\devexpress\\Offline Packages",

@@ -297,7 +297,7 @@ namespace GetRaceInfo
                                         writeToFileText.AppendLine();
                                     }
                                     raceIdx = arr_line[2];
-                                    writeToFileText.AppendLine(track + " " + raceIdx);
+                                    writeToFileText.AppendLine(CultureInfo.CurrentCulture.TextInfo.ToTitleCase(track.Trim().ToLower()) + " " + CultureInfo.CurrentCulture.TextInfo.ToTitleCase(raceIdx.Trim().ToLower()));
 
 
                                     //string cleanedString = Regex.Replace(line, "[^a-zA-Z0-9\\s]", "");
@@ -347,7 +347,8 @@ namespace GetRaceInfo
                                     string[] arr_pgmHorseName = line.Split(" ");
                                     int pgm = int.Parse(arr_pgmHorseName[0]);
                                     string horseName = string.Join(" ", arr_pgmHorseName.SkipLast(2).Skip(1).ToArray());
-                                    dic_horseName.Add(pgm, horseName);
+                                    dic_horseName.Add(pgm, horseName.Replace(".","").Replace("'",""));
+
                                 }
 
                                 //textBox1.AppendText(line);

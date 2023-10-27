@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F64CJZi/1Hauq1T5x2VDA3oKZ++71D4WNER4H46c7QGAeWws8nxnSsBasHXxSN9xXojj764AM1X32p8rt9NHZg==",
+  "dgSpecHash": "3KPsTwB6KWgT1yfTbgx+5xJgvIvbixW2/Ble+BEDMDvlXa1+ykaH9FruQfL3WtpM6PBCrBCOPXbRVTr6mOKx6g==",
   "success": true,
-  "projectFilePath": "D:\\work\\GetRaceInfo\\GetRaceInfo.csproj",
+  "projectFilePath": "D:\\work\\Getinfo\\GetRaceInfo\\GetRaceInfo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\epplus\\6.2.10\\epplus.6.2.10.nupkg.sha512",
